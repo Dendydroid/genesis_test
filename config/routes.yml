@@ -1,0 +1,7 @@
+index_get:
+  path: /
+  defaults: { _controller: 'App\Http\IndexController::index' }
+
+index_add:
+  path: /add
+  defaults: { _controller: 'App\Http\IndexController::add' }
